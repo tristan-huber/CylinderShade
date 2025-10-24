@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "CylinderShade",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "189b5791-4e8c-4baf-b939-2dae76c27d6b",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "Inches",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
