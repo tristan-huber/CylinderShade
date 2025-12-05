@@ -1449,8 +1449,17 @@
       "name": "Hoop",
       "ioValues": [
         {
-          "name": "Input (1)",
+          "name": "diameter",
           "ioValue": 10
+        },
+        {
+          "name": "thickness",
+          "ioValue": 10
+        },
+        {
+          "name": "width",
+          "ioValue": 1,
+          "currentEquation": "1"
         }
       ],
       "topLevel": false,
@@ -1464,25 +1473,76 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "y": 0.3257142857142857,
           "uniqueID": "id-444",
-          "name": "Input (1)",
+          "name": "diameter",
           "type": "number"
         },
         {
-          "atomType": "Extrude",
-          "x": 0.5,
-          "y": 0.5,
-          "uniqueID": "id-447",
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.418021978021978,
+          "uniqueID": "id-451",
+          "name": "thickness",
+          "type": "number"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.27734375,
+          "y": 0.27999999999999997,
+          "uniqueID": "id-454",
           "ioValues": [
             {
-              "name": "height",
+              "name": "diameter",
               "ioValue": 10
             }
           ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.5103296703296702,
+          "uniqueID": "id-457",
+          "name": "width",
+          "type": "number"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.318359375,
+          "y": 0.5800000000000001,
+          "uniqueID": "id-460",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 9,
+              "currentEquation": "diameter - width"
+            }
+          ]
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.40234375000000006,
+          "y": 0.4,
+          "uniqueID": "id-463"
         }
       ],
-      "allConnectors": [],
+      "allConnectors": [
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-444",
+          "ap2ID": "id-454"
+        },
+        {
+          "ap2Name": "geometry1",
+          "ap1ID": "id-454",
+          "ap2ID": "id-463"
+        },
+        {
+          "ap2Name": "geometry2",
+          "ap1ID": "id-460",
+          "ap2ID": "id-463"
+        }
+      ],
       "fileTypeVersion": 1
     }
   ],
