@@ -198,15 +198,127 @@
       "currentEquation": "x - y * 2"
     },
     {
+      "atomType": "Molecule",
+      "x": 0.24283854166666666,
+      "y": 0.14285714285714285,
+      "uniqueID": "id-440",
+      "name": "Hoop",
+      "ioValues": [
+        {
+          "name": "diameter",
+          "ioValue": 8
+        },
+        {
+          "name": "thickness",
+          "ioValue": 0.25
+        },
+        {
+          "name": "width",
+          "ioValue": 1
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "id-442"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.15384615384615385,
+          "uniqueID": "id-444",
+          "name": "diameter",
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.24615384615384617,
+          "uniqueID": "id-451",
+          "name": "thickness",
+          "type": "number"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.27734375,
+          "y": 0.27999999999999997,
+          "uniqueID": "id-454",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 8
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "x": 0.025384615384615384,
+          "y": 0.3384615384615385,
+          "uniqueID": "id-457",
+          "name": "width",
+          "type": "number"
+        },
+        {
+          "atomType": "Circle",
+          "x": 0.318359375,
+          "y": 0.5800000000000001,
+          "uniqueID": "id-460"
+        },
+        {
+          "atomType": "Difference",
+          "x": 0.40234375000000006,
+          "y": 0.4,
+          "uniqueID": "id-463"
+        },
+        {
+          "atomType": "Extrude",
+          "x": 0.5,
+          "y": 0.5,
+          "uniqueID": "id-678"
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-444",
+          "ap2ID": "id-454"
+        },
+        {
+          "ap2Name": "retain",
+          "ap1ID": "id-454",
+          "ap2ID": "id-463"
+        },
+        {
+          "ap2Name": "remove",
+          "ap1ID": "id-460",
+          "ap2ID": "id-463"
+        },
+        {
+          "ap2Name": "geometry",
+          "ap1ID": "id-463",
+          "ap2ID": "id-678"
+        },
+        {
+          "ap2Name": "number or geometry",
+          "ap1ID": "id-678",
+          "ap2ID": "id-442"
+        }
+      ],
+      "fileTypeVersion": 1
+    },
+    {
       "atomType": "GitHubMolecule",
-      "x": 0.2513020833333333,
-      "y": 0.13428571428571429,
+      "x": 0.10611979166666666,
+      "y": 0.8285714285714286,
       "uniqueID": "id-242",
       "name": "PackableHoop",
       "ioValues": [
         {
           "name": "diameter",
-          "ioValue": 8
+          "ioValue": 10
         },
         {
           "name": "layers",
@@ -218,7 +330,7 @@
         },
         {
           "name": "materialThickness",
-          "ioValue": 0.25
+          "ioValue": 10
         }
       ],
       "topLevel": false,
@@ -269,7 +381,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 8
+              "ioValue": 10
             }
           ]
         },
@@ -277,13 +389,7 @@
           "atomType": "Circle",
           "x": 0.18815104166666669,
           "y": 0.4628571428571429,
-          "uniqueID": "id-194",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 7.5
-            }
-          ]
+          "uniqueID": "id-194"
         },
         {
           "atomType": "Difference",
@@ -303,7 +409,7 @@
             },
             {
               "name": "diameter",
-              "ioValue": 8
+              "ioValue": 10
             }
           ]
         },
@@ -319,7 +425,7 @@
             },
             {
               "name": "yDist",
-              "ioValue": -4
+              "ioValue": -5
             },
             {
               "name": "zDist",
@@ -338,7 +444,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "5ea22352-2-60-{\"geometry\":\"move-polysides-4-3-0--4-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-4",
+                    "geometry": "5ea22352-2-60-{\"geometry\":\"move-polysides-5-3-0--5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-4",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -362,7 +468,7 @@
                     "bom": []
                   },
                   {
-                    "geometry": "5ea22352-2-60-{\"geometry\":\"move-polysides-4-3-0--4-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-5",
+                    "geometry": "5ea22352-2-60-{\"geometry\":\"move-polysides-5-3-0--5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-5",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -426,7 +532,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.25
+              "ioValue": 10
             }
           ]
         },
@@ -446,7 +552,7 @@
             },
             {
               "name": "zDist",
-              "ioValue": 0.25
+              "ioValue": 10
             }
           ]
         },
@@ -582,11 +688,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 8
-            },
-            {
-              "name": "y",
-              "ioValue": 0.5
+              "ioValue": 10
             }
           ],
           "currentEquation": "x - y"
@@ -600,7 +702,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 0.25
+              "ioValue": 10
             }
           ],
           "currentEquation": "x * 2"
@@ -614,7 +716,7 @@
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 8
+              "ioValue": 10
             }
           ],
           "currentEquation": "-1 * x / 2"
@@ -1017,7 +1119,7 @@
             },
             {
               "name": "distZ",
-              "ioValue": 0.5,
+              "ioValue": 20,
               "currentEquation": "materialThickness * 2"
             }
           ],
@@ -1081,7 +1183,7 @@
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 0.5
+                  "ioValue": 20
                 }
               ],
               "codeVersion": 1,
@@ -1282,16 +1384,6 @@
           "ap2ID": "id-207"
         },
         {
-          "ap2Name": "geometry1",
-          "ap1ID": "id-193",
-          "ap2ID": "id-195"
-        },
-        {
-          "ap2Name": "geometry2",
-          "ap1ID": "id-194",
-          "ap2ID": "id-195"
-        },
-        {
           "ap2Name": "geometry2",
           "ap1ID": "id-195",
           "ap2ID": "id-199"
@@ -1440,110 +1532,6 @@
       },
       "unitsKey": "Inches",
       "fileTypeVersion": 1
-    },
-    {
-      "atomType": "Molecule",
-      "x": 0.15755208333333334,
-      "y": 0.8342857142857143,
-      "uniqueID": "id-440",
-      "name": "Hoop",
-      "ioValues": [
-        {
-          "name": "diameter",
-          "ioValue": 10
-        },
-        {
-          "name": "thickness",
-          "ioValue": 10
-        },
-        {
-          "name": "width",
-          "ioValue": 1,
-          "currentEquation": "1"
-        }
-      ],
-      "topLevel": false,
-      "allAtoms": [
-        {
-          "atomType": "Output",
-          "x": 0.98,
-          "y": 0.5,
-          "uniqueID": "id-442"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.3257142857142857,
-          "uniqueID": "id-444",
-          "name": "diameter",
-          "type": "number"
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.418021978021978,
-          "uniqueID": "id-451",
-          "name": "thickness",
-          "type": "number"
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.27734375,
-          "y": 0.27999999999999997,
-          "uniqueID": "id-454",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 10
-            }
-          ]
-        },
-        {
-          "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.5103296703296702,
-          "uniqueID": "id-457",
-          "name": "width",
-          "type": "number"
-        },
-        {
-          "atomType": "Circle",
-          "x": 0.318359375,
-          "y": 0.5800000000000001,
-          "uniqueID": "id-460",
-          "ioValues": [
-            {
-              "name": "diameter",
-              "ioValue": 9,
-              "currentEquation": "diameter - width"
-            }
-          ]
-        },
-        {
-          "atomType": "Difference",
-          "x": 0.40234375000000006,
-          "y": 0.4,
-          "uniqueID": "id-463"
-        }
-      ],
-      "allConnectors": [
-        {
-          "ap2Name": "diameter",
-          "ap1ID": "id-444",
-          "ap2ID": "id-454"
-        },
-        {
-          "ap2Name": "geometry1",
-          "ap1ID": "id-454",
-          "ap2ID": "id-463"
-        },
-        {
-          "ap2Name": "geometry2",
-          "ap1ID": "id-460",
-          "ap2ID": "id-463"
-        }
-      ],
-      "fileTypeVersion": 1
     }
   ],
   "allConnectors": [
@@ -1560,7 +1548,7 @@
     {
       "ap2Name": "diameter",
       "ap1ID": "b129a739-6ece-4507-b834-dcc5dd5c9867",
-      "ap2ID": "id-242"
+      "ap2ID": "id-440"
     },
     {
       "ap2Name": "height",
@@ -1578,24 +1566,14 @@
       "ap2ID": "7c54084d-9c84-4820-8822-75b817534a20"
     },
     {
-      "ap2Name": "materialThickness",
+      "ap2Name": "thickness",
       "ap1ID": "d9d63734-13b2-4676-b0d7-9cef87979c58",
-      "ap2ID": "id-242"
+      "ap2ID": "id-440"
     },
     {
       "ap2Name": "Shape 1",
       "ap1ID": "2d210e4e-3ece-45da-9a45-5ca64d39ab5d",
       "ap2ID": "c458f76f-4072-457c-85a0-f173e02c6704"
-    },
-    {
-      "ap2Name": "geometry2",
-      "ap1ID": "543112b6-4428-4295-a0a3-7a1eafff0efa",
-      "ap2ID": "d40814bd-718e-44b4-bd9b-755a0dac5572"
-    },
-    {
-      "ap2Name": "geometry1",
-      "ap1ID": "76b499ec-42c0-4e23-bb17-33209faac43c",
-      "ap2ID": "d40814bd-718e-44b4-bd9b-755a0dac5572"
     },
     {
       "ap2Name": "geometry",
@@ -1639,12 +1617,12 @@
     },
     {
       "ap2Name": "geometry",
-      "ap1ID": "id-242",
+      "ap1ID": "id-440",
       "ap2ID": "2d210e4e-3ece-45da-9a45-5ca64d39ab5d"
     },
     {
       "ap2Name": "Shape 2",
-      "ap1ID": "id-242",
+      "ap1ID": "id-440",
       "ap2ID": "c458f76f-4072-457c-85a0-f173e02c6704"
     }
   ],
