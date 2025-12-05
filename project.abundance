@@ -265,7 +265,14 @@
           "atomType": "Circle",
           "x": 0.318359375,
           "y": 0.5800000000000001,
-          "uniqueID": "id-460"
+          "uniqueID": "id-460",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 10,
+              "currentEquation": "10"
+            }
+          ]
         },
         {
           "atomType": "Difference",
@@ -277,7 +284,31 @@
           "atomType": "Extrude",
           "x": 0.5,
           "y": 0.5,
-          "uniqueID": "id-678"
+          "uniqueID": "id-678",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Equation",
+          "x": 0.19140625000000003,
+          "y": 0.62,
+          "uniqueID": "id-894",
+          "name": "x + y",
+          "ioValues": [
+            {
+              "name": "x",
+              "ioValue": 1
+            },
+            {
+              "name": "y",
+              "ioValue": 1
+            }
+          ],
+          "currentEquation": "x + y"
         }
       ],
       "allConnectors": [
