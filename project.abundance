@@ -15,7 +15,8 @@
     },
     {
       "name": "materialThickness",
-      "ioValue": 0.25
+      "ioValue": 0.5,
+      "currentEquation": "0.5"
     }
   ],
   "topLevel": true,
@@ -66,7 +67,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 29.5,
+          "ioValue": 29,
           "currentEquation": "height"
         }
       ]
@@ -192,7 +193,7 @@
         },
         {
           "name": "y",
-          "ioValue": 0.25
+          "ioValue": 0.5
         }
       ],
       "currentEquation": "x - y * 2"
@@ -215,7 +216,7 @@
         },
         {
           "name": "width",
-          "ioValue": 0.25
+          "ioValue": 0.5
         }
       ],
       "topLevel": false,
@@ -288,7 +289,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 0.25
+              "ioValue": 0.5
             }
           ]
         },
