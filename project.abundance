@@ -228,7 +228,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "y": 0.6577380952380952,
           "uniqueID": "id-444",
           "name": "diameter",
           "type": "number"
@@ -236,7 +236,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.24615384615384617,
+          "y": 0.8392857142857143,
           "uniqueID": "id-451",
           "name": "thickness",
           "type": "number"
@@ -269,8 +269,7 @@
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 10,
-              "currentEquation": "10"
+              "ioValue": 7.75
             }
           ]
         },
@@ -288,7 +287,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 10
+              "ioValue": 1
             }
           ]
         },
@@ -297,33 +296,48 @@
           "x": 0.19140625000000003,
           "y": 0.62,
           "uniqueID": "id-894",
-          "name": "x + y",
+          "name": "x - y",
           "ioValues": [
             {
               "name": "x",
-              "ioValue": 1
+              "ioValue": 8
             },
             {
               "name": "y",
-              "ioValue": 1
+              "ioValue": 0.25
             }
           ],
-          "currentEquation": "x + y"
+          "currentEquation": "x - y"
         }
       ],
       "allConnectors": [
+        {
+          "ap2Name": "x",
+          "ap1ID": "id-444",
+          "ap2ID": "id-894"
+        },
         {
           "ap2Name": "diameter",
           "ap1ID": "id-444",
           "ap2ID": "id-454"
         },
         {
-          "ap2Name": "retain",
+          "ap2Name": "y",
+          "ap1ID": "id-451",
+          "ap2ID": "id-894"
+        },
+        {
+          "ap2Name": "geometry1",
           "ap1ID": "id-454",
           "ap2ID": "id-463"
         },
         {
-          "ap2Name": "remove",
+          "ap2Name": "height",
+          "ap1ID": "id-457",
+          "ap2ID": "id-678"
+        },
+        {
+          "ap2Name": "geometry2",
           "ap1ID": "id-460",
           "ap2ID": "id-463"
         },
@@ -336,6 +350,11 @@
           "ap2Name": "number or geometry",
           "ap1ID": "id-678",
           "ap2ID": "id-442"
+        },
+        {
+          "ap2Name": "diameter",
+          "ap1ID": "id-894",
+          "ap2ID": "id-460"
         }
       ],
       "fileTypeVersion": 1
