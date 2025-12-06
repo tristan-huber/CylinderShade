@@ -15,8 +15,7 @@
     },
     {
       "name": "materialThickness",
-      "ioValue": 0.5,
-      "currentEquation": "0.5"
+      "ioValue": 0.5
     }
   ],
   "topLevel": true,
@@ -67,7 +66,7 @@
         },
         {
           "name": "zDist",
-          "ioValue": 29,
+          "ioValue": 29.5,
           "currentEquation": "height"
         }
       ]
@@ -185,7 +184,7 @@
       "x": 0.24869791666666669,
       "y": 0.4085714285714286,
       "uniqueID": "7c54084d-9c84-4820-8822-75b817534a20",
-      "name": "x - y * 2",
+      "name": "x - y",
       "ioValues": [
         {
           "name": "x",
@@ -196,7 +195,7 @@
           "ioValue": 0.5
         }
       ],
-      "currentEquation": "x - y * 2"
+      "currentEquation": "x - y"
     },
     {
       "atomType": "Molecule",
@@ -211,8 +210,7 @@
         },
         {
           "name": "thickness",
-          "ioValue": 0.375,
-          "currentEquation": "0.375"
+          "ioValue": 0.375
         },
         {
           "name": "width",
@@ -230,7 +228,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.4642857142857143,
+          "y": 0.15384615384615385,
           "uniqueID": "id-444",
           "name": "diameter",
           "type": "number"
@@ -238,7 +236,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.5982142857142857,
+          "y": 0.24615384615384617,
           "uniqueID": "id-451",
           "name": "thickness",
           "type": "number"
@@ -258,7 +256,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.8035714285714286,
+          "y": 0.3384615384615385,
           "uniqueID": "id-457",
           "name": "width",
           "type": "number"
