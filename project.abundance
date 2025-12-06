@@ -210,11 +210,12 @@
         },
         {
           "name": "thickness",
-          "ioValue": 0.25
+          "ioValue": 0.375,
+          "currentEquation": "0.375"
         },
         {
           "name": "width",
-          "ioValue": 1
+          "ioValue": 0.25
         }
       ],
       "topLevel": false,
@@ -228,7 +229,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.6577380952380952,
+          "y": 0.4642857142857143,
           "uniqueID": "id-444",
           "name": "diameter",
           "type": "number"
@@ -236,7 +237,7 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.8392857142857143,
+          "y": 0.5982142857142857,
           "uniqueID": "id-451",
           "name": "thickness",
           "type": "number"
@@ -256,20 +257,20 @@
         {
           "atomType": "Input",
           "x": 0.025384615384615384,
-          "y": 0.3384615384615385,
+          "y": 0.8035714285714286,
           "uniqueID": "id-457",
           "name": "width",
           "type": "number"
         },
         {
           "atomType": "Circle",
-          "x": 0.318359375,
-          "y": 0.5800000000000001,
+          "x": 0.2903645833333333,
+          "y": 0.4910714285714286,
           "uniqueID": "id-460",
           "ioValues": [
             {
               "name": "diameter",
-              "ioValue": 7.75
+              "ioValue": 7.625
             }
           ]
         },
@@ -287,7 +288,7 @@
           "ioValues": [
             {
               "name": "height",
-              "ioValue": 1
+              "ioValue": 0.25
             }
           ]
         },
@@ -304,7 +305,7 @@
             },
             {
               "name": "y",
-              "ioValue": 0.25
+              "ioValue": 0.375
             }
           ],
           "currentEquation": "x - y"
@@ -1616,7 +1617,7 @@
       "ap2ID": "7c54084d-9c84-4820-8822-75b817534a20"
     },
     {
-      "ap2Name": "thickness",
+      "ap2Name": "width",
       "ap1ID": "d9d63734-13b2-4676-b0d7-9cef87979c58",
       "ap2ID": "id-440"
     },
@@ -1624,6 +1625,16 @@
       "ap2Name": "Shape 1",
       "ap1ID": "2d210e4e-3ece-45da-9a45-5ca64d39ab5d",
       "ap2ID": "c458f76f-4072-457c-85a0-f173e02c6704"
+    },
+    {
+      "ap2Name": "geometry2",
+      "ap1ID": "543112b6-4428-4295-a0a3-7a1eafff0efa",
+      "ap2ID": "d40814bd-718e-44b4-bd9b-755a0dac5572"
+    },
+    {
+      "ap2Name": "geometry1",
+      "ap1ID": "76b499ec-42c0-4e23-bb17-33209faac43c",
+      "ap2ID": "d40814bd-718e-44b4-bd9b-755a0dac5572"
     },
     {
       "ap2Name": "geometry",
