@@ -24,28 +24,34 @@
       "atomType": "Output",
       "x": 0.98,
       "y": 0.5,
-      "uniqueID": "39093d4f-6ff4-40ce-97f2-74f0ea04d0ea"
+      "uniqueID": "39093d4f-6ff4-40ce-97f2-74f0ea04d0ea",
+      "ioValues": [
+        {
+          "name": "number or geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.15384615384615385,
+      "x": 0.0231,
+      "y": 0.14,
       "uniqueID": "b129a739-6ece-4507-b834-dcc5dd5c9867",
       "name": "diameter",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.24615384615384617,
+      "x": 0.0231,
+      "y": 0.22400000000000003,
       "uniqueID": "0d7a7adf-239c-48a2-9a26-25ef8e54983a",
       "name": "height",
       "type": "number"
     },
     {
       "atomType": "Input",
-      "x": 0.025384615384615384,
-      "y": 0.3384615384615385,
+      "x": 0.0231,
+      "y": 0.30800000000000005,
       "uniqueID": "d9d63734-13b2-4676-b0d7-9cef87979c58",
       "name": "materialThickness",
       "type": "number"
@@ -56,6 +62,10 @@
       "y": 0.24,
       "uniqueID": "2d210e4e-3ece-45da-9a45-5ca64d39ab5d",
       "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "xDist",
           "ioValue": 0
@@ -101,7 +111,17 @@
       "atomType": "Difference",
       "x": 0.357421875,
       "y": 0.5914285714285714,
-      "uniqueID": "d40814bd-718e-44b4-bd9b-755a0dac5572"
+      "uniqueID": "d40814bd-718e-44b4-bd9b-755a0dac5572",
+      "ioValues": [
+        {
+          "name": "retain",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
+        {
+          "name": "remove",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ]
     },
     {
       "atomType": "Extrude",
@@ -109,6 +129,10 @@
       "y": 0.4828571428571429,
       "uniqueID": "e370f31e-213c-4039-b50c-b709821c3d2c",
       "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        },
         {
           "name": "height",
           "ioValue": 30,
@@ -121,6 +145,12 @@
       "x": 0.541015625,
       "y": 0.7599999999999999,
       "uniqueID": "1c9bb111-558a-4292-996d-38fb112d81d6",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
       "selectedColor": "Glass"
     },
     {
@@ -159,6 +189,12 @@
       "y": 0.3028571428571429,
       "uniqueID": "e011c0d6-4fef-48e0-83b0-e7374088ca4c",
       "name": "toCut",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
       "tags": [
         "toCut"
       ]
@@ -203,6 +239,12 @@
       "y": 0.09523809523809523,
       "uniqueID": "id-1113",
       "name": "hoop_one",
+      "ioValues": [
+        {
+          "name": "geometry",
+          "ioValue": "__GEOMETRY_INPUT__"
+        }
+      ],
       "tags": [
         "hoop_one"
       ]
@@ -220,8 +262,7 @@
         },
         {
           "name": "thickness",
-          "ioValue": 0.75,
-          "currentEquation": "0.75"
+          "ioValue": 0.75
         },
         {
           "name": "width",
@@ -234,20 +275,26 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-442"
+          "uniqueID": "id-442",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.0231,
+          "y": 0.14,
           "uniqueID": "id-444",
           "name": "diameter",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.24615384615384617,
+          "x": 0.0231,
+          "y": 0.22400000000000003,
           "uniqueID": "id-451",
           "name": "thickness",
           "type": "number"
@@ -266,8 +313,8 @@
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.3384615384615385,
+          "x": 0.0231,
+          "y": 0.30800000000000005,
           "uniqueID": "id-457",
           "name": "width",
           "type": "number"
@@ -288,7 +335,17 @@
           "atomType": "Difference",
           "x": 0.40234375000000006,
           "y": 0.4,
-          "uniqueID": "id-463"
+          "uniqueID": "id-463",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Extrude",
@@ -296,6 +353,10 @@
           "y": 0.5,
           "uniqueID": "id-678",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "height",
               "ioValue": 0.5
@@ -338,7 +399,7 @@
           "ap2ID": "id-894"
         },
         {
-          "ap2Name": "geometry1",
+          "ap2Name": "retain",
           "ap1ID": "id-454",
           "ap2ID": "id-463"
         },
@@ -348,7 +409,7 @@
           "ap2ID": "id-678"
         },
         {
-          "ap2Name": "geometry2",
+          "ap2Name": "remove",
           "ap1ID": "id-460",
           "ap2ID": "id-463"
         },
@@ -400,36 +461,42 @@
           "atomType": "Output",
           "x": 0.98,
           "y": 0.5,
-          "uniqueID": "id-188"
+          "uniqueID": "id-188",
+          "ioValues": [
+            {
+              "name": "number or geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.15384615384615385,
+          "x": 0.0231,
+          "y": 0.14,
           "uniqueID": "id-189",
           "name": "diameter",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.24615384615384617,
+          "x": 0.0231,
+          "y": 0.22400000000000003,
           "uniqueID": "id-190",
           "name": "layers",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.3384615384615385,
+          "x": 0.0231,
+          "y": 0.30800000000000005,
           "uniqueID": "id-191",
           "name": "width",
           "type": "number"
         },
         {
           "atomType": "Input",
-          "x": 0.025384615384615384,
-          "y": 0.4307692307692308,
+          "x": 0.0231,
+          "y": 0.39200000000000007,
           "uniqueID": "id-192",
           "name": "materialThickness",
           "type": "number"
@@ -450,13 +517,29 @@
           "atomType": "Circle",
           "x": 0.18815104166666669,
           "y": 0.4628571428571429,
-          "uniqueID": "id-194"
+          "uniqueID": "id-194",
+          "ioValues": [
+            {
+              "name": "diameter",
+              "ioValue": 9.5
+            }
+          ]
         },
         {
           "atomType": "Difference",
           "x": 0.2779947916666667,
           "y": 0.3257142857142857,
-          "uniqueID": "id-195"
+          "uniqueID": "id-195",
+          "ioValues": [
+            {
+              "name": "retain",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "remove",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "RegularPolygon",
@@ -480,6 +563,10 @@
           "y": 0.8314285714285715,
           "uniqueID": "id-197",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": 0
@@ -505,7 +592,7 @@
               "ioValue": {
                 "geometry": [
                   {
-                    "geometry": "5ea22352-2-60-{\"geometry\":\"move-polysides-5-3-0--5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-4",
+                    "geometry": "5ea22352-{\"geometry\":\"move-polysides-5-3-0--5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-2-60-4",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -526,10 +613,22 @@
                       ]
                     },
                     "color": "#aad7f2",
-                    "bom": []
+                    "bom": [],
+                    "boundingBox": {
+                      "min": [
+                        -4.330128018922194,
+                        -7.500001000000002,
+                        0
+                      ],
+                      "max": [
+                        4.330128018922193,
+                        0.000001,
+                        0
+                      ]
+                    }
                   },
                   {
-                    "geometry": "5ea22352-2-60-{\"geometry\":\"move-polysides-5-3-0--5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-5",
+                    "geometry": "5ea22352-{\"geometry\":\"move-polysides-5-3-0--5-0\",\"dimension\":\"2D\",\"tags\":[],\"plane\":{\"origin\":[0,0,0],\"xDir\":[1,0,0],\"normal\":[0,0,1]},\"color\":\"#aad7f2\",\"bom\":[]}-2-60-5",
                     "dimension": "2D",
                     "tags": [],
                     "plane": {
@@ -550,7 +649,19 @@
                       ]
                     },
                     "color": "#aad7f2",
-                    "bom": []
+                    "bom": [],
+                    "boundingBox": {
+                      "min": [
+                        -0.000001,
+                        -7.500001000000001,
+                        0
+                      ],
+                      "max": [
+                        8.660255037844388,
+                        0.000001000000000663998,
+                        0
+                      ]
+                    }
                   }
                 ],
                 "plane": {
@@ -570,10 +681,23 @@
                     1
                   ]
                 },
-                "tags": [],
                 "color": "#aad7f2",
+                "tags": [],
                 "bom": [],
-                "dimension": "2D"
+                "dimension": "2D",
+                "nonReplicadSerialized": [],
+                "boundingBox": {
+                  "min": [
+                    -4.330128018922194,
+                    -7.500001000000002,
+                    0
+                  ],
+                  "max": [
+                    8.660255037844388,
+                    0.000001000000000663998,
+                    0
+                  ]
+                }
               }
             }
           ],
@@ -583,7 +707,17 @@
           "atomType": "Intersection",
           "x": 0.4251302083333333,
           "y": 0.4702380952380953,
-          "uniqueID": "id-199"
+          "uniqueID": "id-199",
+          "ioValues": [
+            {
+              "name": "geometry1",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
+              "name": "geometry2",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ]
         },
         {
           "atomType": "Extrude",
@@ -591,6 +725,10 @@
           "y": 0.45833333333333337,
           "uniqueID": "id-200",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "height",
               "ioValue": 10
@@ -603,6 +741,10 @@
           "y": 0.6190476190476191,
           "uniqueID": "id-201",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "xDist",
               "ioValue": 0
@@ -623,6 +765,10 @@
           "y": 0.6904761904761905,
           "uniqueID": "id-202",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "x-axis degrees",
               "ioValue": 0
@@ -661,6 +807,10 @@
           "name": "Cut Layout",
           "ioValues": [
             {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "Sheet Width",
               "ioValue": 96
             },
@@ -671,6 +821,10 @@
             {
               "name": "Part Padding",
               "ioValue": 0.4
+            },
+            {
+              "name": "Orientations",
+              "ioValue": 12
             }
           ],
           "placements": [
@@ -750,6 +904,10 @@
             {
               "name": "x",
               "ioValue": 10
+            },
+            {
+              "name": "y",
+              "ioValue": 0.5
             }
           ],
           "currentEquation": "x - y"
@@ -788,6 +946,12 @@
           "y": 0.7023809523809524,
           "uniqueID": "id-239",
           "name": "one-arc",
+          "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            }
+          ],
           "tags": [
             "one-arc"
           ]
@@ -798,6 +962,10 @@
           "y": 0.8928571428571428,
           "uniqueID": "id-240",
           "ioValues": [
+            {
+              "name": "geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
             {
               "name": "x-axis degrees",
               "ioValue": 0
@@ -850,26 +1018,32 @@
               "atomType": "Output",
               "x": 0.98,
               "y": 0.5,
-              "uniqueID": "id-210"
+              "uniqueID": "id-210",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0231,
+              "y": 0.14,
               "uniqueID": "id-211",
               "name": "Shape"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0231,
+              "y": 0.22400000000000003,
               "uniqueID": "id-212",
               "name": "Number"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0231,
+              "y": 0.30800000000000005,
               "uniqueID": "id-213",
               "name": "Angle"
             },
@@ -892,6 +1066,10 @@
               "uniqueID": "id-215",
               "ioValues": [
                 {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
                   "name": "xDist",
                   "ioValue": 100
                 },
@@ -912,15 +1090,19 @@
               "uniqueID": "id-216",
               "ioValues": [
                 {
+                  "name": "Shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
                   "name": "Number",
-                  "ioValue": 2
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "Angle",
-                  "ioValue": 60
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
-              "codeVersion": 1,
+              "interpreterVersion": 0,
               "code": "//Inputs:[Shape, Number, Angle];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Rotate(Shape, 0, 0, Angle * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
             },
             {
@@ -929,6 +1111,10 @@
               "y": 0.2618384401114206,
               "uniqueID": "id-217",
               "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
                 {
                   "name": "height",
                   "ioValue": 10
@@ -1015,26 +1201,32 @@
               "atomType": "Output",
               "x": 0.98,
               "y": 0.5,
-              "uniqueID": "id-219"
+              "uniqueID": "id-219",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0231,
+              "y": 0.14,
               "uniqueID": "id-220",
               "name": "Shape"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0231,
+              "y": 0.22400000000000003,
               "uniqueID": "id-221",
               "name": "Number"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0231,
+              "y": 0.30800000000000005,
               "uniqueID": "id-222",
               "name": "Angle"
             },
@@ -1057,6 +1249,10 @@
               "uniqueID": "id-224",
               "ioValues": [
                 {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
                   "name": "xDist",
                   "ioValue": 100
                 },
@@ -1077,15 +1273,19 @@
               "uniqueID": "id-225",
               "ioValues": [
                 {
+                  "name": "Shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
                   "name": "Number",
-                  "ioValue": 2
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "Angle",
-                  "ioValue": 120
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
-              "codeVersion": 1,
+              "interpreterVersion": 0,
               "code": "//Inputs:[Shape, Number, Angle];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Rotate(Shape, 0, 0, Angle * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
             },
             {
@@ -1094,6 +1294,10 @@
               "y": 0.2618384401114206,
               "uniqueID": "id-226",
               "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
                 {
                   "name": "height",
                   "ioValue": 10
@@ -1171,6 +1375,10 @@
               "currentEquation": "layers / 2"
             },
             {
+              "name": "Geometry",
+              "ioValue": "__GEOMETRY_INPUT__"
+            },
+            {
               "name": "distX",
               "ioValue": 0
             },
@@ -1190,7 +1398,13 @@
               "atomType": "Output",
               "x": 0.98,
               "y": 0.5,
-              "uniqueID": "id-228"
+              "uniqueID": "id-228",
+              "ioValues": [
+                {
+                  "name": "number or geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ]
             },
             {
               "atomType": "Rectangle",
@@ -1210,16 +1424,16 @@
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.15384615384615385,
+              "x": 0.0231,
+              "y": 0.14,
               "uniqueID": "id-230",
               "name": "Number",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.24615384615384617,
+              "x": 0.0231,
+              "y": 0.22400000000000003,
               "uniqueID": "id-231",
               "name": "Geometry",
               "type": "geometry"
@@ -1231,45 +1445,49 @@
               "uniqueID": "id-232",
               "ioValues": [
                 {
+                  "name": "Shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
                   "name": "Number",
-                  "ioValue": 1
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "distX",
-                  "ioValue": 0
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "distY",
-                  "ioValue": 0
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 20
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
-              "codeVersion": 1,
+              "interpreterVersion": 0,
               "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.3384615384615385,
+              "x": 0.0231,
+              "y": 0.30800000000000005,
               "uniqueID": "id-233",
               "name": "distX",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.4307692307692308,
+              "x": 0.0231,
+              "y": 0.39200000000000007,
               "uniqueID": "id-234",
               "name": "distY",
               "type": "number"
             },
             {
               "atomType": "Input",
-              "x": 0.025384615384615384,
-              "y": 0.5230769230769231,
+              "x": 0.0231,
+              "y": 0.4760000000000001,
               "uniqueID": "id-235",
               "name": "distZ",
               "type": "number"
@@ -1280,6 +1498,12 @@
               "y": 0.2787878787878788,
               "uniqueID": "id-236",
               "name": "README",
+              "ioValues": [
+                {
+                  "name": "value",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                }
+              ],
               "readMeText": "Readme text here",
               "global": true
             },
@@ -1290,23 +1514,27 @@
               "uniqueID": "id-237",
               "ioValues": [
                 {
+                  "name": "Shape",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
+                {
                   "name": "Number",
-                  "ioValue": 5
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "distX",
-                  "ioValue": 15
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "distY",
-                  "ioValue": 2
+                  "ioValue": "__GEOMETRY_INPUT__"
                 },
                 {
                   "name": "distZ",
-                  "ioValue": 0
+                  "ioValue": "__GEOMETRY_INPUT__"
                 }
               ],
-              "codeVersion": 1,
+              "interpreterVersion": 0,
               "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
             },
             {
@@ -1315,6 +1543,10 @@
               "y": 0.396969696969697,
               "uniqueID": "id-238",
               "ioValues": [
+                {
+                  "name": "geometry",
+                  "ioValue": "__GEOMETRY_INPUT__"
+                },
                 {
                   "name": "height",
                   "ioValue": 10
@@ -1357,11 +1589,6 @@
               "ap2Name": "distZ",
               "ap1ID": "id-235",
               "ap2ID": "id-232"
-            },
-            {
-              "ap2Name": "geometry",
-              "ap1ID": "id-237",
-              "ap2ID": "id-236"
             },
             {
               "ap2Name": "Shape",
@@ -1637,12 +1864,12 @@
       "ap2ID": "c458f76f-4072-457c-85a0-f173e02c6704"
     },
     {
-      "ap2Name": "geometry2",
+      "ap2Name": "remove",
       "ap1ID": "543112b6-4428-4295-a0a3-7a1eafff0efa",
       "ap2ID": "d40814bd-718e-44b4-bd9b-755a0dac5572"
     },
     {
-      "ap2Name": "geometry1",
+      "ap2Name": "retain",
       "ap1ID": "76b499ec-42c0-4e23-bb17-33209faac43c",
       "ap2ID": "d40814bd-718e-44b4-bd9b-755a0dac5572"
     },
